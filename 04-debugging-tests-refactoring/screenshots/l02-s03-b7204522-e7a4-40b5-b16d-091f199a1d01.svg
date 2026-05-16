@@ -1,0 +1,45 @@
+<svg viewBox="0 0 680 360" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+  .c-gray rect { fill: #f3f4f6; stroke: #d1d5db; }
+  .c-teal rect { fill: #ccfbf1; stroke: #14b8a6; }
+  .c-coral rect { fill: #ffe4e6; stroke: #f43f5e; }
+  .c-purple rect { fill: #ede9fe; stroke: #8b5cf6; }
+  .ts { fill: #111827; font-family: Arial, sans-serif; }
+</style>
+</defs>
+
+<text class="ts" font-size="12" x="340" y="18" text-anchor="middle">Шаблон для проверки одной гипотезы</text>
+
+<g class="c-purple">
+  <rect x="30" y="34" width="620" height="48" rx="6"/>
+  <text class="ts" x="130" y="58" font-size="12" font-weight="500">Гипотеза</text>
+  <text class="ts" x="280" y="58" font-size="12">[какую версию проверяем]</text>
+</g>
+
+<g class="c-teal">
+  <rect x="30" y="96" width="620" height="48" rx="6"/>
+  <text class="ts" x="130" y="120" font-size="12" font-weight="500">Что проверить</text>
+  <text class="ts" x="280" y="120" font-size="12">[какой участок кода, данных или поведения сравниваем]</text>
+</g>
+
+<g class="c-coral">
+  <rect x="30" y="158" width="620" height="48" rx="6"/>
+  <text class="ts" x="130" y="182" font-size="12" font-weight="500">Подтверждающий сигнал</text>
+  <text class="ts" x="280" y="182" font-size="12">[что увидим, если гипотеза верна]</text>
+</g>
+
+<g class="c-coral">
+  <rect x="30" y="220" width="620" height="48" rx="6"/>
+  <text class="ts" x="130" y="244" font-size="12" font-weight="500">Опровергающий сигнал</text>
+  <text class="ts" x="280" y="244" font-size="12">[что покажет, что версия ложная]</text>
+</g>
+
+<g class="c-gray">
+  <rect x="30" y="282" width="620" height="48" rx="6"/>
+  <text class="ts" x="130" y="306" font-size="12" font-weight="500">Что не менять</text>
+  <text class="ts" x="280" y="306" font-size="12">[что нельзя трогать, чтобы проверка не стала фиксом]</text>
+</g>
+
+<text class="ts" font-size="12" x="340" y="350" text-anchor="middle">Одна карточка = одна гипотеза, один способ проверки и один однозначный вывод</text>
+</svg>

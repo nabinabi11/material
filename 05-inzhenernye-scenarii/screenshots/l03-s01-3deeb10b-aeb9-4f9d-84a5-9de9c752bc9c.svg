@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="650" viewBox="0 40 1260 650" role="img" aria-labelledby="title desc">
+  <title id="title">Одноразовый скрипт, миграция и постоянная автоматизация</title>
+  <desc id="desc">Диаграмма с тремя столбцами. В первом показан одноразовый скрипт, во втором миграция, в третьем постоянная автоматизация. Внутри каждого столбца перечислены основные характеристики: срок жизни, ключевая цель, риски и требования к запуску.</desc>
+  <defs>
+    <style>
+      text { font-family: Arial, sans-serif; fill: #111827; }
+      .title { font-size: 30px; font-weight: 700; }
+      .subtitle { font-size: 16px; fill: #6b7280; }
+      .col-title { font-size: 22px; font-weight: 700; }
+      .box-title { font-size: 15px; font-weight: 700; }
+      .box-text { font-size: 14px; fill: #374151; }
+      .footer { font-size: 15px; font-weight: 700; fill: #111827; }
+    </style>
+  </defs>
+
+  <path d="M78 70 H390 A24 24 0 0 1 414 94 V138 H54 V94 A24 24 0 0 1 78 70 Z" fill="#ccfbf1"/>
+  <rect x="54" y="70" width="360" height="500" rx="24" fill="none" stroke="#d1d5db" stroke-width="2"/>
+  <text x="234" y="113" text-anchor="middle" class="col-title">Одноразовый скрипт</text>
+
+  <text x="86" y="176" class="box-title">Главное различие</text>
+  <text x="86" y="200" class="box-text">
+    <tspan x="86" dy="0">Разовый проход под одну</tspan>
+    <tspan x="86" dy="18">ограниченную задачу.</tspan>
+  </text>
+
+  <text x="86" y="254" class="box-title">Когда нужен</text>
+  <text x="86" y="278" class="box-text">
+    <tspan x="86" dy="0">Выгрузка, пересчёт, экспорт,</tspan>
+    <tspan x="86" dy="18">разовая обработка данных.</tspan>
+  </text>
+
+  <text x="86" y="332" class="box-title">Срок жизни</text>
+  <text x="86" y="356" class="box-text">
+    <tspan x="86" dy="0">Короткий. После запуска код</tspan>
+    <tspan x="86" dy="18">может больше не пригодиться.</tspan>
+  </text>
+
+  <text x="86" y="410" class="box-title">Главный риск</text>
+  <text x="86" y="434" class="box-text">
+    <tspan x="86" dy="0">Запустить не тот диапазон</tspan>
+    <tspan x="86" dy="18">или неверный набор данных.</tspan>
+  </text>
+
+  <text x="86" y="488" class="box-title">Что обязательно</text>
+  <text x="86" y="512" class="box-text">
+    <tspan x="86" dy="0">Ясные входы, лог результата,</tspan>
+    <tspan x="86" dy="18">защита от ошибочного запуска.</tspan>
+  </text>
+
+  <path d="M474 70 H786 A24 24 0 0 1 810 94 V138 H450 V94 A24 24 0 0 1 474 70 Z" fill="#ede9fe"/>
+  <rect x="450" y="70" width="360" height="500" rx="24" fill="none" stroke="#d1d5db" stroke-width="2"/>
+  <text x="630" y="113" text-anchor="middle" class="col-title">Миграция</text>
+
+  <text x="482" y="176" class="box-title">Главное различие</text>
+  <text x="482" y="200" class="box-text">
+    <tspan x="482" dy="0">Меняет систему так, что</tspan>
+    <tspan x="482" dy="18">переход остаётся в её истории.</tspan>
+  </text>
+
+  <text x="482" y="254" class="box-title">Когда нужна</text>
+  <text x="482" y="278" class="box-text">
+    <tspan x="482" dy="0">Смена схемы, структуры данных</tspan>
+    <tspan x="482" dy="18">или обязательного состояния.</tspan>
+  </text>
+
+  <text x="482" y="332" class="box-title">Срок жизни</text>
+  <text x="482" y="356" class="box-text">
+    <tspan x="482" dy="0">Запуск может быть разовым,</tspan>
+    <tspan x="482" dy="18">но эффект остаётся надолго.</tspan>
+  </text>
+
+  <text x="482" y="410" class="box-title">Главный риск</text>
+  <text x="482" y="434" class="box-text">
+    <tspan x="482" dy="0">Невоспроизводимый переход</tspan>
+    <tspan x="482" dy="18">или отсутствие пути отката.</tspan>
+  </text>
+
+  <text x="482" y="488" class="box-title">Что обязательно</text>
+  <text x="482" y="512" class="box-text">
+    <tspan x="482" dy="0">Порядок запуска, откат или</tspan>
+    <tspan x="482" dy="18">безопасный повторный прогон.</tspan>
+  </text>
+
+  <path d="M870 70 H1182 A24 24 0 0 1 1206 94 V138 H846 V94 A24 24 0 0 1 870 70 Z" fill="#ffe4e6"/>
+  <rect x="846" y="70" width="360" height="500" rx="24" fill="none" stroke="#d1d5db" stroke-width="2"/>
+  <text x="1026" y="113" text-anchor="middle" class="col-title">Постоянная автоматизация</text>
+
+  <text x="878" y="176" class="box-title">Главное различие</text>
+  <text x="878" y="200" class="box-text">
+    <tspan x="878" dy="0">Повторяется по расписанию</tspan>
+    <tspan x="878" dy="18">или по событию много раз.</tspan>
+  </text>
+
+  <text x="878" y="254" class="box-title">Когда нужна</text>
+  <text x="878" y="278" class="box-text">
+    <tspan x="878" dy="0">Регулярный импорт, синхронизация,</tspan>
+    <tspan x="878" dy="18">плановый или событийный запуск.</tspan>
+  </text>
+
+  <text x="878" y="332" class="box-title">Срок жизни</text>
+  <text x="878" y="356" class="box-text">
+    <tspan x="878" dy="0">Долгий. Логику придётся</tspan>
+    <tspan x="878" dy="18">сопровождать и настраивать.</tspan>
+  </text>
+
+  <text x="878" y="410" class="box-title">Главный риск</text>
+  <text x="878" y="434" class="box-text">
+    <tspan x="878" dy="0">Тихая деградация при повторах</tspan>
+    <tspan x="878" dy="18">и неясная реакция на сбой.</tspan>
+  </text>
+
+  <text x="878" y="488" class="box-title">Что обязательно</text>
+  <text x="878" y="512" class="box-text">
+    <tspan x="878" dy="0">Конфигурация, наблюдаемость,</tspan>
+    <tspan x="878" dy="18">поддерживаемость и алерты.</tspan>
+  </text>
+
+  <rect x="80" y="596" width="1100" height="64" rx="6" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="630" y="622" text-anchor="middle" class="footer">
+    <tspan x="630" dy="0">Сначала определите тип задачи.</tspan>
+    <tspan x="630" dy="20">Только после этого решайте, нужен ли откат, пробный прогон, повторный запуск и длительное сопровождение.</tspan>
+  </text>
+</svg>

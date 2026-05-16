@@ -1,0 +1,34 @@
+<svg viewBox="0 0 680 266" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+.ts{fill:#111827;font-family:Arial,sans-serif}
+.sub{fill:#6b7280;font-family:Arial,sans-serif}
+</style>
+</defs>
+<rect x="18" y="10" width="644" height="26" rx="6" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
+<text class="ts" x="340" y="23" text-anchor="middle" dominant-baseline="middle" font-size="12" font-weight="bold">Принципы ограничения MCP-слоя</text>
+<rect x="18" y="44" width="312" height="66" rx="6" fill="#dbeafe" stroke="#60a5fa" stroke-width="1"/>
+<text class="ts" x="30" y="64" dominant-baseline="middle" font-size="11" font-weight="bold">1. Минимальный набор серверов</text>
+<text class="sub" x="30" y="82" dominant-baseline="middle" font-size="10">Только нужные для текущей задачи сессии</text>
+<text class="sub" x="30" y="98" dominant-baseline="middle" font-size="10">Разные .mcp.json для разных контекстов</text>
+<rect x="350" y="44" width="312" height="66" rx="6" fill="#dbeafe" stroke="#60a5fa" stroke-width="1"/>
+<text class="ts" x="362" y="64" dominant-baseline="middle" font-size="11" font-weight="bold">2. Минимальный scope токенов</text>
+<text class="sub" x="362" y="82" dominant-baseline="middle" font-size="10">repo:read вместо прав на всю организацию</text>
+<text class="sub" x="362" y="98" dominant-baseline="middle" font-size="10">Расширить проще, чем разбирать последствия</text>
+<rect x="18" y="118" width="312" height="66" rx="6" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1"/>
+<text class="ts" x="30" y="138" dominant-baseline="middle" font-size="11" font-weight="bold">3. Сначала read-only</text>
+<text class="sub" x="30" y="156" dominant-baseline="middle" font-size="10">PostgreSQL read-only, Filesystem на чтение</text>
+<text class="sub" x="30" y="172" dominant-baseline="middle" font-size="10">Write — только когда read-only не покрывает</text>
+<rect x="350" y="118" width="312" height="66" rx="6" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1"/>
+<text class="ts" x="362" y="138" dominant-baseline="middle" font-size="11" font-weight="bold">4. Разделение сессий по доступу</text>
+<text class="sub" x="362" y="156" dominant-baseline="middle" font-size="10">Аналитика ≠ разработка ≠ коммуникация</text>
+<text class="sub" x="362" y="172" dominant-baseline="middle" font-size="10">Не смешивай Filesystem + Slack в одной сессии</text>
+<rect x="18" y="192" width="312" height="66" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+<text class="ts" x="30" y="212" dominant-baseline="middle" font-size="11" font-weight="bold">5. Code review .mcp.json</text>
+<text class="sub" x="30" y="230" dominant-baseline="middle" font-size="10">Конфигурация MCP = security-артефакт</text>
+<text class="sub" x="30" y="246" dominant-baseline="middle" font-size="10">Добавь в CODEOWNERS — требует ревью</text>
+<rect x="350" y="192" width="312" height="66" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+<text class="ts" x="362" y="212" dominant-baseline="middle" font-size="11" font-weight="bold">6. Dry-run перед автоматизацией</text>
+<text class="sub" x="362" y="230" dominant-baseline="middle" font-size="10">Сначала тест в тестовом окружении</text>
+<text class="sub" x="362" y="246" dominant-baseline="middle" font-size="10">Fork, тест-канал, тест-база — потом продакшн</text>
+</svg>

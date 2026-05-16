@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="640" viewBox="0 0 980 640" role="img" aria-labelledby="title desc">
+  <title id="title">Уровни тестов и роль фикстур</title>
+  <desc id="desc">Схема с тремя уровнями тестов: unit, интеграционный и пользовательский сценарий. Показано, что по мере движения вправо растут стоимость и доля подготовленного окружения.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5a6b7b"/>
+    </marker>
+    <style>
+      text { font-family: "Segoe UI", Arial, sans-serif; fill: #193042; }
+      .title { font-size: 28px; font-weight: 700; }
+      .subtitle { font-size: 16px; fill: #476072; }
+      .card-title { font-size: 23px; font-weight: 700; }
+      .small { font-size: 14px; }
+      .tiny { font-size: 13px; fill: #4e6475; }
+      .label { font-size: 14px; font-weight: 700; letter-spacing: 0.6px; text-transform: uppercase; fill: #5d7282; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="980" height="640" rx="28" fill="url(#bg)"/>
+  <text x="60" y="62" class="title">Уровни тестов</text>
+  <text x="60" y="92" class="subtitle">
+    <tspan x="60" dy="15">По мере движения вправо растут связность сценария, цена запуска и потребность в подготовленном окружении.</tspan>
+  </text>
+
+  <rect x="55" y="140" width="270" height="330" rx="24" fill="#ffffff" stroke="#cfe0eb" stroke-width="2"/>
+  <text x="79" y="182" class="label">Локальный риск</text>
+  <text x="79" y="220" class="card-title">Unit-тест</text>
+  <text x="79" y="258" class="small">
+    <tspan x="79" dy="0">Одна функция или изолированный</tspan>
+    <tspan x="79" dy="20">модуль.</tspan>
+  </text>
+  <text x="79" y="308" class="small">Проверяем вход → выход.</text>
+  <text x="79" y="338" class="tiny">
+    <tspan x="79" dy="0">Обычно хватает простых данных </tspan>
+    <tspan x="79" dy="20">прямо в тесте.</tspan>
+  </text>
+  <text x="79" y="388" class="tiny">
+    <tspan x="79" dy="0">Сложные фикстуры либо не нужны,</tspan>
+    <tspan x="79" dy="18">либо минимальны.</tspan>
+  </text>
+
+  <rect x="355" y="140" width="270" height="330" rx="24" fill="#ffffff" stroke="#b9d9cc" stroke-width="2"/>
+  <text x="379" y="182" class="label">Стык слоев</text>
+  <text x="379" y="220" class="card-title">Интеграционный</text>
+  <text x="379" y="258" class="small">
+    <tspan x="379" dy="0">Маршрут, сервис, база, клиент.</tspan>
+  </text>
+  <text x="379" y="288" class="small">
+    <tspan x="379" dy="0">Проверяем, что цепочка</tspan>
+    <tspan x="379" dy="20">согласована.</tspan>
+  </text>
+  <text x="379" y="338" class="tiny">
+    <tspan x="379" dy="0">Часто нужны фикстуры:</tspan>
+    <tspan x="379" dy="20"> - client, user, db_session, seed</tspan>
+  </text>
+  <text x="379" y="388" class="tiny">
+    <tspan x="379" dy="0">Часто нужны фикстуры</tspan>
+  </text>
+
+  <rect x="655" y="140" width="270" height="330" rx="24" fill="#ffffff" stroke="#f0d39a" stroke-width="2"/>
+  <text x="679" y="182" class="label">Поведение в интерфейсе</text>
+  <text x="679" y="220" class="card-title">Пользовательский</text>
+  <text x="679" y="248" class="card-title">сценарий</text>
+  <text x="679" y="282" class="small">
+    <tspan x="679" dy="0">Экран, клик, текст, переход.</tspan>
+  </text>
+  <text x="679" y="312" class="small">
+    <tspan x="679" dy="0">Проверяем сценарий глазами</tspan>
+    <tspan x="679" dy="20">пользователя.</tspan>
+  </text>
+  <text x="679" y="362" class="tiny">
+    <tspan x="679" dy="0">Окружение тяжелее:</tspan>
+    <tspan x="679" dy="20"> - браузер, данные, состояние сессии.</tspan>
+  </text>
+  <text x="679" y="412" class="tiny">
+    <tspan x="679" dy="0">Самый дорогой уровень</tspan>
+  </text>
+
+  <line x1="330" y1="282" x2="350" y2="282" stroke="#5a6b7b" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="630" y1="282" x2="650" y2="282" stroke="#5a6b7b" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <text x="60" y="520" class="label">Практическое правило</text>
+  <rect x="60" y="534" width="860" height="54" rx="18" fill="#6dcfbc"/>
+  <text x="86" y="558" class="small" fill="#ffffff">
+    <tspan x="86" dy="0">Берите самый дешевый уровень, который все еще ловит реальную поломку,</tspan>
+    <tspan x="86" dy="20">а не просто дает зеленый тест.</tspan>
+  </text>
+</svg>

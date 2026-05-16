@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" role="img" aria-labelledby="title desc">
+  <title id="title">Сильная тестовая инфраструктура</title>
+  <desc id="desc">Схема показывает, как связаны запуск pytest, каталог tests, conftest.py, фикстуры и конкретный новый тест.</desc>
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#46627b"/>
+    </marker>
+    <style>
+      text { font-family: "Segoe UI", Arial, sans-serif; fill: #173246; }
+      .title { font-size: 28px; font-weight: 700; }
+      .subtitle { font-size: 16px; fill: #476072; }
+      .box-title { font-size: 21px; font-weight: 700; }
+      .body { font-size: 15px; }
+      .caption { font-size: 15px; fill: #5a6f80; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1040" height="540" rx="28" fill="url(#bg2)"/>
+  <text x="56" y="58" class="title">Что считать сильной тестовой инфраструктурой</text>
+  <text x="56" y="88" class="subtitle">
+    <tspan x="56" dy="0">Агенту легче встраиваться, когда в проекте уже есть понятный путь:</tspan>
+    <tspan x="56" dy="22">чем запускать, где искать фикстуры и на что равняться.</tspan>
+  </text>
+
+  <rect x="58" y="146" width="210" height="134" rx="22" fill="#ffffff" stroke="#c8d7e4" stroke-width="2"/>
+  <text x="84" y="188" class="box-title">Команда запуска</text>
+  <text x="84" y="219" class="body"><tspan x="84" dy="0">`pytest` / `npm test`</tspan><tspan x="84" dy="22">или другой понятный</tspan><tspan x="84" dy="22">entrypoint</tspan></text>
+
+  <rect x="300" y="146" width="210" height="134" rx="22" fill="#ffffff" stroke="#c8d7e4" stroke-width="2"/>
+  <text x="326" y="188" class="box-title">Каталог тестов</text>
+  <text x="326" y="219" class="body"><tspan x="326" dy="0">`tests/` с живыми</tspan><tspan x="326" dy="22">примерами и понятным</tspan><tspan x="326" dy="22">именованием</tspan></text>
+
+  <rect x="542" y="146" width="220" height="134" rx="22" fill="#ffffff" stroke="#9fcdbb" stroke-width="2"/>
+  <text x="568" y="188" class="box-title">Общие фикстуры</text>
+  <text x="568" y="219" class="body"><tspan x="568" dy="0">`conftest.py`, test client,</tspan><tspan x="568" dy="22">user, `db_session`,</tspan><tspan x="568" dy="22">seed-данные</tspan></text>
+
+  <rect x="794" y="146" width="190" height="134" rx="22" fill="#ffffff" stroke="#f0d39a" stroke-width="2"/>
+  <text x="820" y="188" class="box-title">Новый тест</text>
+  <text x="820" y="219" class="body"><tspan x="820" dy="0">использует готовый</tspan><tspan x="820" dy="22">стиль, фикстуры</tspan><tspan x="820" dy="22">и контекст</tspan></text>
+
+  <line x1="268" y1="204" x2="292" y2="204" stroke="#46627b" stroke-width="3" marker-end="url(#arrow2)"/>
+  <line x1="510" y1="204" x2="534" y2="204" stroke="#46627b" stroke-width="3" marker-end="url(#arrow2)"/>
+  <line x1="762" y1="204" x2="786" y2="204" stroke="#46627b" stroke-width="3" marker-end="url(#arrow2)"/>
+
+  <rect x="112" y="334" width="816" height="142" rx="26" fill="#ffffff" stroke="#d4e1ea" stroke-width="2"/>
+  <text x="144" y="372" class="box-title">Что агенту легче делать в такой среде</text>
+  <text x="144" y="405" class="body">
+    <tspan x="144" dy="0">1. Найти похожий существующий тест и повторить его форму.</tspan>
+    <tspan x="144" dy="24">2. Переиспользовать готовые фикстуры вместо изобретения нового каркаса.</tspan>
+    <tspan x="144" dy="24">3. Добавить один тест на нужный контракт, не перестраивая весь проект.</tspan>
+  </text>
+</svg>

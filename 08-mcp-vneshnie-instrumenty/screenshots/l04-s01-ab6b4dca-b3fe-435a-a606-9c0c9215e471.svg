@@ -1,0 +1,31 @@
+<svg viewBox="0 0 680 256" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+.ts{fill:#111827;font-family:Arial,sans-serif}
+.sub{fill:#6b7280;font-family:Arial,sans-serif}
+</style>
+</defs>
+<rect x="18" y="10" width="644" height="28" rx="6" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
+<text class="ts" x="340" y="24" text-anchor="middle" dominant-baseline="middle" font-size="13" font-weight="bold">Уровни доверия MCP-серверов</text>
+<rect x="18" y="46" width="644" height="62" rx="6" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+<rect x="18" y="46" width="148" height="62" rx="6" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1"/>
+<text class="ts" x="92" y="68" text-anchor="middle" font-size="11" font-weight="bold">Локальный stdio</text>
+<text class="sub" x="92" y="86" text-anchor="middle" font-size="10">Низкий риск</text>
+<text class="ts" x="180" y="64" font-size="11">Работает на вашей машине как дочерний процесс</text>
+<text class="sub" x="180" y="82" font-size="10">Контролируете вы: код, зависимости, поведение</text>
+<text class="sub" x="180" y="98" font-size="10">Уровень доверия — как к локальному коду</text>
+<rect x="18" y="116" width="644" height="62" rx="6" fill="#fffbeb" stroke="#fef08a" stroke-width="1"/>
+<rect x="18" y="116" width="148" height="62" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+<text class="ts" x="92" y="138" text-anchor="middle" font-size="11" font-weight="bold">Удалённый HTTP</text>
+<text class="sub" x="92" y="156" text-anchor="middle" font-size="10">Средний риск</text>
+<text class="ts" x="180" y="134" font-size="11">Сетевой сервис — данные передаются по сети</text>
+<text class="sub" x="180" y="152" font-size="10">Внешний сервис получает все запросы и отдаёт ответы</text>
+<text class="sub" x="180" y="168" font-size="10">Нужно явно понимать: кому и что отправляется</text>
+<rect x="18" y="186" width="644" height="62" rx="6" fill="#fff1f2" stroke="#fecdd3" stroke-width="1"/>
+<rect x="18" y="186" width="148" height="62" rx="6" fill="#ffe4e6" stroke="#f43f5e" stroke-width="1"/>
+<text class="ts" x="92" y="208" text-anchor="middle" font-size="11" font-weight="bold">Сторонний каталог</text>
+<text class="sub" x="92" y="226" text-anchor="middle" font-size="10">Высокий риск</text>
+<text class="ts" x="180" y="204" font-size="11">Чужой код, работающий под вашими правами</text>
+<text class="sub" x="180" y="222" font-size="10">npx скачивает и исполняет код локально — нужна проверка репо</text>
+<text class="sub" x="180" y="238" font-size="10">Docker-вариант изолирован, но тоже требует доверия к автору</text>
+</svg>

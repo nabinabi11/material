@@ -1,0 +1,76 @@
+<svg viewBox="0 0 680 348" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+<path d="M0,0 L0,6 L8,3 z" fill="#444441"/>
+</marker>
+<style>
+  .c-gray rect { fill: #f3f4f6; stroke: #d1d5db; }
+  .c-teal rect { fill: #ccfbf1; stroke: #14b8a6; }
+  .c-coral rect { fill: #ffe4e6; stroke: #f43f5e; }
+  .c-purple rect { fill: #ede9fe; stroke: #8b5cf6; }
+  .ts { fill: #111827; font-family: Arial, sans-serif; }
+  .arr { stroke: #444441; stroke-width: 1.2; fill: none; }
+</style>
+</defs>
+
+<text class="ts" font-size="12" x="340" y="18" text-anchor="middle">Дерево гипотез для одного симптома</text>
+
+<g class="c-coral">
+  <rect x="165" y="34" width="350" height="52" rx="6"/>
+  <text class="ts" x="340" y="55" text-anchor="middle" font-weight="500">Симптом</text>
+  <text class="ts" x="340" y="73" text-anchor="middle" font-size="12">Dashboard и next-lesson показывают разный следующий урок</text>
+</g>
+
+<line x1="340" y1="86" x2="340" y2="110" class="arr"/>
+<line x1="120" y1="110" x2="560" y2="110" class="arr"/>
+<line x1="120" y1="110" x2="120" y2="126" class="arr" marker-end="url(#arrow)"/>
+<line x1="340" y1="110" x2="340" y2="126" class="arr" marker-end="url(#arrow)"/>
+<line x1="560" y1="110" x2="560" y2="126" class="arr" marker-end="url(#arrow)"/>
+
+<g class="c-teal">
+  <rect x="20" y="128" width="200" height="68" rx="6"/>
+  <text class="ts" x="120" y="149" text-anchor="middle" font-size="12" font-weight="500">Гипотеза 1</text>
+  <text class="ts" x="120" y="169" text-anchor="middle" font-size="12">Страницы вызывают разные</text>
+  <text class="ts" x="120" y="185" text-anchor="middle" font-size="12">функции выбора урока</text>
+</g>
+
+<g class="c-teal">
+  <rect x="240" y="128" width="200" height="68" rx="6"/>
+  <text class="ts" x="340" y="149" text-anchor="middle" font-size="12" font-weight="500">Гипотеза 2</text>
+  <text class="ts" x="340" y="169" text-anchor="middle" font-size="12">Одна функция получает</text>
+  <text class="ts" x="340" y="185" text-anchor="middle" font-size="12">разные входные параметры</text>
+</g>
+
+<g class="c-purple">
+  <rect x="460" y="128" width="200" height="68" rx="6"/>
+  <text class="ts" x="560" y="149" text-anchor="middle" font-size="12" font-weight="500">Гипотеза 3</text>
+  <text class="ts" x="560" y="169" text-anchor="middle" font-size="12">Сервис неверно фильтрует</text>
+  <text class="ts" x="560" y="185" text-anchor="middle" font-size="12">или сортирует уроки</text>
+</g>
+
+<g class="c-gray">
+  <rect x="20" y="222" width="200" height="94" rx="6"/>
+  <text class="ts" x="120" y="243" text-anchor="middle" font-size="12" font-weight="500">Проверить</text>
+  <text class="ts" x="120" y="261" text-anchor="middle" font-size="12">routes/pages.py</text>
+  <text class="ts" x="120" y="277" text-anchor="middle" font-size="12">services/dashboard_service.py</text>
+  <text class="ts" x="120" y="299" text-anchor="middle" font-size="12">Сигнал: разные вызовы</text>
+</g>
+
+<g class="c-gray">
+  <rect x="240" y="222" width="200" height="94" rx="6"/>
+  <text class="ts" x="340" y="243" text-anchor="middle" font-size="12" font-weight="500">Проверить</text>
+  <text class="ts" x="340" y="261" text-anchor="middle" font-size="12">как страницы передают</text>
+  <text class="ts" x="340" y="277" text-anchor="middle" font-size="12">user_id, course_id, status</text>
+  <text class="ts" x="340" y="299" text-anchor="middle" font-size="12">Сигнал: разные параметры</text>
+</g>
+
+<g class="c-gray">
+  <rect x="460" y="222" width="200" height="94" rx="6"/>
+  <text class="ts" x="560" y="243" text-anchor="middle" font-size="12" font-weight="500">Проверить</text>
+  <text class="ts" x="560" y="261" text-anchor="middle" font-size="12">get_next_lesson()</text>
+  <text class="ts" x="560" y="277" text-anchor="middle" font-size="12">фильтрацию и сортировку</text>
+  <text class="ts" x="560" y="299" text-anchor="middle" font-size="12">Сигнал: неверный отбор</text>
+</g>
+
+<text class="ts" font-size="12" x="340" y="338" text-anchor="middle">Хорошее дерево ведет от симптома к проверяемым версиям, а не к догадкам без опоры</text>
+</svg>

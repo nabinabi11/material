@@ -1,0 +1,49 @@
+<svg viewBox="0 0 680 340" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+.c-teal rect  { fill: #ccfbf1; stroke: #14b8a6; }
+.c-coral rect { fill: #ffe4e6; stroke: #f43f5e; }
+.c-gray rect  { fill: #f3f4f6; stroke: #d1d5db; }
+.ts { fill: #111827; font-family: Arial, sans-serif; }
+</style>
+</defs>
+
+<text x="340" y="22" text-anchor="middle" font-size="13" font-family="Arial, sans-serif" fill="#111827" font-weight="bold">Три типа изменений кода</text>
+
+<text x="340" y="52" text-anchor="middle" font-size="11" fill="#6b7280" font-family="Arial, sans-serif">меняет поведение?</text>
+<text x="185" y="68" text-anchor="middle" font-size="11" fill="#6b7280" font-family="Arial, sans-serif">нет</text>
+<text x="495" y="68" text-anchor="middle" font-size="11" fill="#6b7280" font-family="Arial, sans-serif">да</text>
+
+<text x="30" y="170" text-anchor="middle" font-size="11" fill="#6b7280" font-family="Arial, sans-serif" transform="rotate(-90 30 185)">меняет структуру?</text>
+<text x="46" y="120" text-anchor="middle" font-size="11" fill="#6b7280" font-family="Arial, sans-serif">да</text>
+<text x="46" y="260" text-anchor="middle" font-size="11" fill="#6b7280" font-family="Arial, sans-serif">нет</text>
+
+<g class="c-teal ts">
+  <rect x="70" y="78" width="240" height="110" rx="6"/>
+  <text x="190" y="106" text-anchor="middle" font-size="13" font-weight="bold" font-family="Arial, sans-serif" fill="#111827">Рефакторинг</text>
+  <text x="190" y="126" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#374151">Структура меняется,</text>
+  <text x="190" y="142" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#374151">поведение — нет.</text>
+  <text x="190" y="162" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#374151">Тесты остаются зелёными.</text>
+</g>
+
+<g class="c-coral ts">
+  <rect x="360" y="78" width="240" height="110" rx="6"/>
+  <text x="480" y="106" text-anchor="middle" font-size="13" font-weight="bold" font-family="Arial, sans-serif" fill="#111827">Bugfix</text>
+  <text x="480" y="126" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#374151">Поведение меняется.</text>
+  <text x="480" y="142" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#374151">Красный тест должен</text>
+  <text x="480" y="162" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#374151">стать зелёным.</text>
+</g>
+
+<g class="c-gray ts">
+  <rect x="70" y="208" width="240" height="90" rx="6"/>
+  <text x="190" y="236" text-anchor="middle" font-size="13" font-weight="bold" font-family="Arial, sans-serif" fill="#111827">Cleanup</text>
+  <text x="190" y="256" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#374151">Ни структура, ни поведение</text>
+  <text x="190" y="272" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#374151">не меняются. Только шум.</text>
+</g>
+
+<g class="c-gray ts">
+  <rect x="360" y="208" width="240" height="90" rx="6"/>
+  <text x="480" y="248" text-anchor="middle" font-size="12" font-family="Arial, sans-serif" fill="#9ca3af">—</text>
+  <text x="480" y="268" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#9ca3af">Смешивать нельзя</text>
+</g>
+</svg>

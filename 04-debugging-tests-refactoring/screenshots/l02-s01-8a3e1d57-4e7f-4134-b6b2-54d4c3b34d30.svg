@@ -1,0 +1,68 @@
+<svg viewBox="0 0 680 250" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+<path d="M0,0 L0,6 L8,3 z" fill="#444441"/>
+</marker>
+<style>
+  .c-coral rect { fill: #ffe4e6; stroke: #f43f5e; }
+  .c-teal rect { fill: #ccfbf1; stroke: #14b8a6; }
+  .c-purple rect { fill: #ede9fe; stroke: #8b5cf6; }
+  .c-gray rect { fill: #f3f4f6; stroke: #d1d5db; }
+  .ts { fill: #111827; font-family: Arial, sans-serif; }
+  .arr { stroke: #444441; stroke-width: 1.2; fill: none; }
+</style>
+</defs>
+
+<text class="ts" font-size="12" x="340" y="18" text-anchor="middle">Как двигаться от наблюдения к доказанной причине</text>
+
+<g class="c-coral">
+  <rect x="20" y="40" width="180" height="68" rx="6"/>
+  <text class="ts" x="110" y="62" text-anchor="middle" font-weight="500">Симптом</text>
+  <text class="ts" x="110" y="82" text-anchor="middle" font-size="12">Что вы видите</text>
+  <text class="ts" x="110" y="98" text-anchor="middle" font-size="12">в интерфейсе или выводе</text>
+</g>
+
+<line x1="205" y1="74" x2="248" y2="74" class="arr" marker-end="url(#arrow)"/>
+
+<g class="c-teal">
+  <rect x="250" y="40" width="180" height="68" rx="6"/>
+  <text class="ts" x="340" y="62" text-anchor="middle" font-weight="500">Гипотеза</text>
+  <text class="ts" x="340" y="82" text-anchor="middle" font-size="12">Проверяемая версия,</text>
+  <text class="ts" x="340" y="98" text-anchor="middle" font-size="12">почему это происходит</text>
+</g>
+
+<line x1="435" y1="74" x2="478" y2="74" class="arr" marker-end="url(#arrow)"/>
+
+<g class="c-purple">
+  <rect x="480" y="40" width="180" height="68" rx="6"/>
+  <text class="ts" x="570" y="62" text-anchor="middle" font-weight="500">Первопричина</text>
+  <text class="ts" x="570" y="82" text-anchor="middle" font-size="12">Конкретный механизм,</text>
+  <text class="ts" x="570" y="98" text-anchor="middle" font-size="12">который уже доказан</text>
+</g>
+
+<g class="c-gray">
+  <rect x="20" y="136" width="180" height="82" rx="6"/>
+  <text class="ts" x="110" y="158" text-anchor="middle" font-size="12" font-weight="500">Пример</text>
+  <text class="ts" x="110" y="178" text-anchor="middle" font-size="12">Dashboard и next-lesson</text>
+  <text class="ts" x="110" y="194" text-anchor="middle" font-size="12">показывают разный</text>
+  <text class="ts" x="110" y="210" text-anchor="middle" font-size="12">следующий урок</text>
+</g>
+
+<g class="c-gray">
+  <rect x="250" y="136" width="180" height="82" rx="6"/>
+  <text class="ts" x="340" y="158" text-anchor="middle" font-size="12" font-weight="500">Пример</text>
+  <text class="ts" x="340" y="178" text-anchor="middle" font-size="12">Две страницы вызывают</text>
+  <text class="ts" x="340" y="194" text-anchor="middle" font-size="12">разную логику выбора</text>
+  <text class="ts" x="340" y="210" text-anchor="middle" font-size="12">следующего урока</text>
+</g>
+
+<g class="c-gray">
+  <rect x="480" y="136" width="180" height="82" rx="6"/>
+  <text class="ts" x="570" y="158" text-anchor="middle" font-size="12" font-weight="500">Пример</text>
+  <text class="ts" x="570" y="178" text-anchor="middle" font-size="12">В pages.py один вызов</text>
+  <text class="ts" x="570" y="194" text-anchor="middle" font-size="12">идет без фильтра</text>
+  <text class="ts" x="570" y="210" text-anchor="middle" font-size="12">exclude_completed</text>
+</g>
+
+<text class="ts" font-size="12" x="340" y="239" text-anchor="middle">Симптом наблюдаем, гипотезу проверяем, первопричину доказываем</text>
+</svg>

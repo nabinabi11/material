@@ -1,0 +1,69 @@
+<svg viewBox="0 0 680 310" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+<path d="M0,0 L0,6 L8,3 z" fill="#444441"/>
+</marker>
+<style>
+  .c-gray rect { fill: #f3f4f6; stroke: #d1d5db; }
+  .c-teal rect { fill: #ccfbf1; stroke: #14b8a6; }
+  .c-coral rect { fill: #ffe4e6; stroke: #f43f5e; }
+  .c-purple rect { fill: #ede9fe; stroke: #8b5cf6; }
+  .ts { fill: #111827; font-family: Arial, sans-serif; }
+  .arr { stroke: #444441; stroke-width: 1.2; fill: none; }
+</style>
+</defs>
+
+<text class="ts" font-size="12" x="340" y="18" text-anchor="middle">Как агент исследует кодовую базу</text>
+
+<g class="c-purple">
+  <rect x="255" y="30" width="170" height="44" rx="6"/>
+  <text class="ts" x="340" y="52" text-anchor="middle" dominant-baseline="central" font-weight="500">Запрос от нас</text>
+</g>
+
+<line x1="340" y1="74" x2="340" y2="95" class="arr" marker-end="url(#arrow)"/>
+
+<g class="c-teal">
+  <rect x="215" y="96" width="250" height="44" rx="6"/>
+  <text class="ts" x="340" y="118" text-anchor="middle" dominant-baseline="central" font-weight="500">Агент планирует исследование</text>
+</g>
+
+<line x1="340" y1="140" x2="340" y2="158" class="arr" marker-end="url(#arrow)"/>
+
+<text class="ts" font-size="12" x="340" y="172" text-anchor="middle">инструменты</text>
+
+<g class="c-gray">
+  <rect x="10" y="183" width="145" height="44" rx="6"/>
+  <text class="ts" x="82" y="198" text-anchor="middle" font-size="12" font-weight="500">ls / glob</text>
+  <text class="ts" x="82" y="214" text-anchor="middle" font-size="12">структура папок</text>
+</g>
+
+<g class="c-gray">
+  <rect x="167" y="183" width="145" height="44" rx="6"/>
+  <text class="ts" x="239" y="198" text-anchor="middle" font-size="12" font-weight="500">grep / search</text>
+  <text class="ts" x="239" y="214" text-anchor="middle" font-size="12">поиск по тексту</text>
+</g>
+
+<g class="c-gray">
+  <rect x="368" y="183" width="145" height="44" rx="6"/>
+  <text class="ts" x="440" y="198" text-anchor="middle" font-size="12" font-weight="500">read file</text>
+  <text class="ts" x="440" y="214" text-anchor="middle" font-size="12">чтение файлов</text>
+</g>
+
+<g class="c-gray">
+  <rect x="525" y="183" width="145" height="44" rx="6"/>
+  <text class="ts" x="597" y="198" text-anchor="middle" font-size="12" font-weight="500">git log / diff</text>
+  <text class="ts" x="597" y="214" text-anchor="middle" font-size="12">история изменений</text>
+</g>
+
+<line x1="82" y1="227" x2="82" y2="248" class="arr"/>
+<line x1="239" y1="227" x2="239" y2="248" class="arr"/>
+<line x1="440" y1="227" x2="440" y2="248" class="arr"/>
+<line x1="597" y1="227" x2="597" y2="248" class="arr"/>
+<line x1="82" y1="248" x2="597" y2="248" class="arr"/>
+<line x1="340" y1="248" x2="340" y2="265" class="arr" marker-end="url(#arrow)"/>
+
+<g class="c-teal">
+  <rect x="215" y="265" width="250" height="40" rx="6"/>
+  <text class="ts" x="340" y="285" text-anchor="middle" dominant-baseline="central" font-weight="500">Находки → ответ / действие</text>
+</g>
+</svg>

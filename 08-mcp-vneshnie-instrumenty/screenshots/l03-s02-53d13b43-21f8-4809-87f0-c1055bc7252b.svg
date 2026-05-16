@@ -1,0 +1,32 @@
+<svg viewBox="0 0 680 192" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+.c-amber rect{fill:#fef3c7;stroke:#d97706;stroke-width:1}
+.c-blue rect{fill:#dbeafe;stroke:#60a5fa;stroke-width:1}
+.c-purple rect{fill:#ede9fe;stroke:#8b5cf6;stroke-width:1}
+.ts{fill:#111827;font-family:Arial,sans-serif}
+.sub{fill:#6b7280;font-family:Arial,sans-serif}
+</style>
+</defs>
+<g class="c-amber"><rect x="18" y="20" width="204" height="160" rx="6"/></g>
+<text class="ts" x="120" y="48" text-anchor="middle" font-size="12" font-weight="bold">Tool</text>
+<text class="sub" x="120" y="66" text-anchor="middle" font-size="10">@mcp.tool()</text>
+<text class="ts" x="30" y="88" font-size="11">→ вызов с параметрами</text>
+<text class="ts" x="30" y="107" font-size="11">→ может изменить состояние</text>
+<text class="ts" x="30" y="126" font-size="11">→ возвращает результат</text>
+<text class="sub" x="120" y="162" text-anchor="middle" font-size="10" font-style="italic">Когда нужно что-то сделать</text>
+<g class="c-blue"><rect x="238" y="20" width="204" height="160" rx="6"/></g>
+<text class="ts" x="340" y="48" text-anchor="middle" font-size="12" font-weight="bold">Resource</text>
+<text class="sub" x="340" y="66" text-anchor="middle" font-size="10">@mcp.resource("uri://{p}")</text>
+<text class="ts" x="250" y="88" font-size="11">→ данные по URI</text>
+<text class="ts" x="250" y="107" font-size="11">→ только чтение</text>
+<text class="ts" x="250" y="126" font-size="11">→ без побочных эффектов</text>
+<text class="sub" x="340" y="162" text-anchor="middle" font-size="10" font-style="italic">Когда нужно прочитать данные</text>
+<g class="c-purple"><rect x="458" y="20" width="204" height="160" rx="6"/></g>
+<text class="ts" x="560" y="48" text-anchor="middle" font-size="12" font-weight="bold">Prompt</text>
+<text class="sub" x="560" y="66" text-anchor="middle" font-size="10">@mcp.prompt()</text>
+<text class="ts" x="470" y="88" font-size="11">→ параметры → шаблон</text>
+<text class="ts" x="470" y="107" font-size="11">→ готовый текст запроса</text>
+<text class="ts" x="470" y="126" font-size="11">→ связан с данными сервера</text>
+<text class="sub" x="560" y="162" text-anchor="middle" font-size="10" font-style="italic">Когда нужен шаблон промпта</text>
+</svg>

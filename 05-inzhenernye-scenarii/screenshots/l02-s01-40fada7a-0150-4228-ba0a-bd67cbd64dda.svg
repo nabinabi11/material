@@ -1,0 +1,61 @@
+<svg viewBox="0 0 680 370" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+  .c-gray rect { fill: #f3f4f6; stroke: #d1d5db; }
+  .c-teal rect { fill: #ccfbf1; stroke: #14b8a6; }
+  .c-coral rect { fill: #ffe4e6; stroke: #f43f5e; }
+  .c-purple rect { fill: #ede9fe; stroke: #8b5cf6; }
+  .panel { fill: #ffffff; stroke: #d1d5db; }
+  .ts { fill: #111827; font-family: Arial, sans-serif; }
+  .sub { fill: #6b7280; font-family: Arial, sans-serif; }
+</style>
+</defs>
+
+<rect x="0" y="0" width="680" height="370" fill="#ffffff"/>
+
+<text class="ts" x="340" y="24" text-anchor="middle" font-size="16" font-weight="700">Что добавляет внешний сервис</text>
+<text class="sub" x="340" y="44" text-anchor="middle" font-size="12">Интеграция начинается с той же точки встраивания, но поверх неё появляется внешний слой рисков и ограничений.</text>
+
+<rect class="panel" x="30" y="66" width="290" height="238" rx="6"/>
+<g class="c-teal">
+  <rect x="44" y="80" width="262" height="34" rx="6"/>
+</g>
+<text class="ts" x="175" y="102" text-anchor="middle" font-size="13" font-weight="700">Внутренняя задача</text>
+
+<g class="c-gray">
+  <rect x="44" y="126" width="262" height="34" rx="6"/>
+  <rect x="44" y="170" width="262" height="34" rx="6"/>
+  <rect x="44" y="214" width="262" height="34" rx="6"/>
+  <rect x="44" y="258" width="262" height="34" rx="6"/>
+</g>
+<text class="ts" x="175" y="148" text-anchor="middle" font-size="12">Точка встраивания в проект</text>
+<text class="ts" x="175" y="192" text-anchor="middle" font-size="12">Локальная логика и структура кода</text>
+<text class="ts" x="175" y="236" text-anchor="middle" font-size="12">Риски внутри ваших данных и модулей</text>
+<text class="ts" x="175" y="280" text-anchor="middle" font-size="12">Проверка по diff, тестам и сценарию</text>
+
+<rect class="panel" x="360" y="66" width="290" height="238" rx="6"/>
+<g class="c-purple">
+  <rect x="374" y="80" width="262" height="34" rx="6"/>
+</g>
+<text class="ts" x="505" y="102" text-anchor="middle" font-size="13" font-weight="700">Интеграционная задача</text>
+
+<g class="c-gray">
+  <rect x="374" y="126" width="262" height="34" rx="6"/>
+</g>
+<g class="c-coral">
+  <rect x="374" y="170" width="262" height="34" rx="6"/>
+  <rect x="374" y="214" width="262" height="34" rx="6"/>
+</g>
+<g class="c-purple">
+  <rect x="374" y="258" width="262" height="34" rx="6"/>
+</g>
+<text class="ts" x="505" y="148" text-anchor="middle" font-size="12">Та же точка встраивания в продукт</text>
+<text class="ts" x="505" y="188" text-anchor="middle" font-size="12">Внешний контракт: поля, статусы, формат</text>
+<text class="ts" x="505" y="232" text-anchor="middle" font-size="12">Сетевые ошибки, таймауты, пустой ответ</text>
+<text class="ts" x="505" y="276" text-anchor="middle" font-size="12">Секреты, URL и конфигурация</text>
+
+<g class="c-teal">
+  <rect x="30" y="324" width="620" height="28" rx="6"/>
+</g>
+<text class="ts" x="340" y="343" text-anchor="middle" font-size="12">Интеграция = обычная доработка + чужой контракт + политика устойчивости и безопасности</text>
+</svg>

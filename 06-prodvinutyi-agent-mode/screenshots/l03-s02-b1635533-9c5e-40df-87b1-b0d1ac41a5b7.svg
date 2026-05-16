@@ -1,0 +1,145 @@
+<svg viewBox="0 0 680 486" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Субагенты и агентная команда</title>
+  <desc id="desc">Схема сравнивает два режима параллельной работы. Слева главный агент запускает субагентов, а результаты возвращаются ему по внешнему контуру. Справа лид команды раздаёт задачи через общий список, участники команды общаются друг с другом и отдельно работают над своими задачами.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="5.6" refY="3" orient="auto-start-reverse">
+      <path d="M0,0 L0,6 L7,3 z" fill="#444441"/>
+    </marker>
+    <style>
+      .panel { fill: #ffffff; stroke: #d1d5db; }
+      .c-gray { fill: #f3f4f6; stroke: #d1d5db; }
+      .c-coral { fill: #ffe4e6; stroke: #f43f5e; }
+      .c-purple { fill: #ede9fe; stroke: #8b5cf6; }
+      .c-blue { fill: #dbeafe; stroke: #60a5fa; }
+      .c-amber { fill: #fef3c7; stroke: #d97706; }
+      .result { fill: #ffffff; stroke: #8b5cf6; stroke-width: 1.4; stroke-dasharray: 2 6; }
+      .zone { fill: none; stroke: #d1d5db; stroke-width: 1.2; stroke-dasharray: 4 6; }
+      .label-bg { fill: #ffffff; }
+      .ts { fill: #111827; font-family: Arial, sans-serif; }
+      .sub { fill: #6b7280; font-family: Arial, sans-serif; }
+      .arr { fill: none; stroke: #444441; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <text class="ts" x="340" y="24" text-anchor="middle" font-size="16" font-weight="700">Субагенты и агентная команда</text>
+  <text class="sub" x="340" y="42" text-anchor="middle" font-size="12">Похожее название может скрывать совсем разные способы координации работы.</text>
+
+  <text class="ts" x="175" y="68" text-anchor="middle" font-size="14" font-weight="700">Субагенты</text>
+  <text class="ts" x="505" y="68" text-anchor="middle" font-size="14" font-weight="700">Агентная команда</text>
+
+  <rect class="panel" x="20" y="80" width="310" height="366" rx="10"/>
+  <rect class="panel" x="350" y="80" width="310" height="366" rx="10"/>
+
+  <rect class="c-coral" x="42" y="104" width="266" height="50" rx="6"/>
+  <text class="ts" x="175" y="134" text-anchor="middle" font-size="13" font-weight="700">Главный агент</text>
+
+  <line x1="84" y1="154" x2="84" y2="218" class="arr" marker-end="url(#arrow)"/>
+  <line x1="175" y1="154" x2="175" y2="218" class="arr" marker-end="url(#arrow)"/>
+  <line x1="266" y1="154" x2="266" y2="218" class="arr" marker-end="url(#arrow)"/>
+  <rect class="label-bg" x="112" y="170" width="126" height="18" rx="4"/>
+  <text class="sub" x="175" y="183" text-anchor="middle" font-size="11">Запускает субагентов</text>
+
+  <rect class="zone" x="36" y="198" width="278" height="186" rx="10"/>
+
+  <rect class="c-amber" x="46" y="218" width="76" height="50" rx="6"/>
+  <rect class="c-amber" x="137" y="218" width="76" height="50" rx="6"/>
+  <rect class="c-amber" x="228" y="218" width="76" height="50" rx="6"/>
+  <text class="ts" x="84" y="248" text-anchor="middle" font-size="12" font-weight="700">Субагент</text>
+  <text class="ts" x="175" y="248" text-anchor="middle" font-size="12" font-weight="700">Субагент</text>
+  <text class="ts" x="266" y="248" text-anchor="middle" font-size="12" font-weight="700">Субагент</text>
+
+  <rect class="c-gray" x="54" y="286" width="60" height="24" rx="6"/>
+  <rect class="c-gray" x="145" y="286" width="60" height="24" rx="6"/>
+  <rect class="c-gray" x="236" y="286" width="60" height="24" rx="6"/>
+  <text class="ts" x="84" y="302" text-anchor="middle" font-size="11">Работа</text>
+  <text class="ts" x="175" y="302" text-anchor="middle" font-size="11">Работа</text>
+  <text class="ts" x="266" y="302" text-anchor="middle" font-size="11">Работа</text>
+  <line x1="84" y1="268" x2="84" y2="286" class="arr" marker-end="url(#arrow)"/>
+  <line x1="175" y1="268" x2="175" y2="286" class="arr" marker-end="url(#arrow)"/>
+  <line x1="266" y1="268" x2="266" y2="286" class="arr" marker-end="url(#arrow)"/>
+  <line x1="84" y1="310" x2="84" y2="322" class="arr" marker-end="url(#arrow)"/>
+  <line x1="175" y1="310" x2="175" y2="322" class="arr" marker-end="url(#arrow)"/>
+  <line x1="266" y1="310" x2="266" y2="322" class="arr" marker-end="url(#arrow)"/>
+
+  <ellipse class="result" cx="84" cy="350" rx="42" ry="28"/>
+  <ellipse class="result" cx="175" cy="350" rx="42" ry="28"/>
+  <ellipse class="result" cx="266" cy="350" rx="42" ry="28"/>
+  <text class="ts" x="84" y="354" text-anchor="middle" font-size="11">Результат</text>
+  <text class="ts" x="175" y="354" text-anchor="middle" font-size="11">Результат</text>
+  <text class="ts" x="266" y="354" text-anchor="middle" font-size="11">Результат</text>
+
+  <path d="M84 378 C84 394 84 404 84 418" class="arr"/>
+  <path d="M175 378 C175 394 175 404 175 418" class="arr"/>
+  <path d="M266 378 C266 394 266 404 266 418" class="arr"/>
+  <line x1="84" y1="418" x2="266" y2="418" class="arr"/>
+  <path d="M266 418 H24 V129 H42" class="arr" marker-end="url(#arrow)"/>
+  <rect class="label-bg" x="66" y="409" width="116" height="18" rx="4"/>
+  <text class="sub" x="124" y="422" text-anchor="middle" font-size="11">Отчёт главному агенту</text>
+
+  <rect class="c-coral" x="372" y="104" width="266" height="50" rx="6"/>
+  <text class="ts" x="505" y="134" text-anchor="middle" font-size="13" font-weight="700">Главный агент (лид команды)</text>
+
+  <line x1="505" y1="154" x2="505" y2="208" class="arr" marker-end="url(#arrow)"/>
+  <rect class="label-bg" x="451" y="166" width="108" height="30" rx="4"/>
+  <text class="sub" x="505" y="178" text-anchor="middle" font-size="11">Собирает команду</text>
+  <text class="sub" x="505" y="190" text-anchor="middle" font-size="11">и раздаёт задачи</text>
+
+  <rect class="c-blue" x="372" y="208" width="266" height="64" rx="8" stroke-dasharray="4 5"/>
+  <text class="ts" x="505" y="246" text-anchor="middle" font-size="13" font-weight="700">Общий список задач</text>
+
+  <line x1="410" y1="272" x2="410" y2="344" class="arr" marker-end="url(#arrow)"/>
+  <line x1="505" y1="272" x2="505" y2="344" class="arr" marker-end="url(#arrow)"/>
+  <line x1="600" y1="272" x2="600" y2="344" class="arr" marker-end="url(#arrow)"/>
+  <rect class="label-bg" x="374" y="278" width="72" height="30" rx="4"/>
+  <rect class="label-bg" x="469" y="278" width="72" height="30" rx="4"/>
+  <rect class="label-bg" x="564" y="278" width="72" height="30" rx="4"/>
+  <text class="sub" x="410" y="290" text-anchor="middle" font-size="10">Берут задачу</text>
+  <text class="sub" x="410" y="302" text-anchor="middle" font-size="10">и пишут статус</text>
+  <text class="sub" x="505" y="290" text-anchor="middle" font-size="10">Берут задачу</text>
+  <text class="sub" x="505" y="302" text-anchor="middle" font-size="10">и пишут статус</text>
+  <text class="sub" x="600" y="290" text-anchor="middle" font-size="10">Берут задачу</text>
+  <text class="sub" x="600" y="302" text-anchor="middle" font-size="10">и пишут статус</text>
+
+  <rect class="c-purple" x="376" y="344" width="68" height="50" rx="6"/>
+  <rect class="c-purple" x="471" y="344" width="68" height="50" rx="6"/>
+  <rect class="c-purple" x="566" y="344" width="68" height="50" rx="6"/>
+  <text class="ts" x="410" y="366" text-anchor="middle" font-size="11" font-weight="700">
+    <tspan x="410" dy="0">Участник</tspan>
+    <tspan x="410" dy="13">команды</tspan>
+  </text>
+  <text class="ts" x="505" y="366" text-anchor="middle" font-size="11" font-weight="700">
+    <tspan x="505" dy="0">Участник</tspan>
+    <tspan x="505" dy="13">команды</tspan>
+  </text>
+  <text class="ts" x="600" y="366" text-anchor="middle" font-size="11" font-weight="700">
+    <tspan x="600" dy="0">Участник</tspan>
+    <tspan x="600" dy="13">команды</tspan>
+  </text>
+
+  <line x1="447" y1="369" x2="468" y2="369" class="arr" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <line x1="542" y1="369" x2="563" y2="369" class="arr" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <circle cx="553" cy="333" r="10" class="panel"/>
+  <text class="ts" x="553" y="337" text-anchor="middle" font-size="11" font-weight="700">1</text>
+  <path d="M553 343 V360" class="arr"/>
+
+  <line x1="410" y1="394" x2="410" y2="406" class="arr" marker-end="url(#arrow)"/>
+  <line x1="505" y1="394" x2="505" y2="406" class="arr" marker-end="url(#arrow)"/>
+  <line x1="600" y1="394" x2="600" y2="406" class="arr" marker-end="url(#arrow)"/>
+
+  <rect class="c-gray" x="380" y="406" width="60" height="24" rx="6"/>
+  <rect class="c-gray" x="475" y="406" width="60" height="24" rx="6"/>
+  <rect class="c-gray" x="570" y="406" width="60" height="24" rx="6"/>
+  <text class="ts" x="410" y="422" text-anchor="middle" font-size="11">Работа</text>
+  <text class="ts" x="505" y="422" text-anchor="middle" font-size="11">Работа</text>
+  <text class="ts" x="600" y="422" text-anchor="middle" font-size="11">Работа</text>
+
+  <path d="M410 430 V442 H457 V382 H444" class="arr" marker-end="url(#arrow)"/>
+  <path d="M505 430 V442 H552 V382 H539" class="arr" marker-end="url(#arrow)"/>
+  <path d="M600 430 V442 H647 V382 H634" class="arr" marker-end="url(#arrow)"/>
+
+  <rect class="c-gray" x="30" y="450" width="620" height="28" rx="6"/>
+  <text class="ts" x="340" y="462" text-anchor="middle" font-size="12">
+    <tspan x="340" dy="0">Субагенты координируются через главного агента.</tspan>
+    <tspan x="340" dy="11">1 — участники команды общаются между собой напрямую.</tspan>
+  </text>
+</svg>

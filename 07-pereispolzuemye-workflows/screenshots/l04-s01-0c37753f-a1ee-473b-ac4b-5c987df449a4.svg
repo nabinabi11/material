@@ -1,0 +1,50 @@
+<svg viewBox="0 0 680 296" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="7" markerHeight="7" refX="5.6" refY="3" orient="auto-start-reverse">
+    <path d="M0,0 L0,6 L7,3 z" fill="#444441"/>
+  </marker>
+  <style>
+    .c-neutral rect { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1; }
+    .c-gray rect   { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1; }
+    .c-blue rect   { fill: #dbeafe; stroke: #60a5fa; stroke-width: 1; }
+    .c-teal rect   { fill: #ccfbf1; stroke: #14b8a6; stroke-width: 1; }
+    .c-amber rect  { fill: #fef3c7; stroke: #d97706; stroke-width: 1; }
+    .c-purple rect { fill: #ede9fe; stroke: #8b5cf6; stroke-width: 1; }
+    .c-coral rect  { fill: #ffe4e6; stroke: #f43f5e; stroke-width: 1; }
+    .ts  { fill: #111827; font-family: Arial, sans-serif; }
+    .sub { fill: #6b7280; font-family: Arial, sans-serif; }
+    .arr { fill: none; stroke: #444441; stroke-width: 1.2; stroke-linecap: round; }
+  </style>
+</defs>
+<text class="ts" x="340" y="22" text-anchor="middle" font-size="14" font-weight="bold">Диагностика формы reusable-артефакта</text>
+<g class="c-gray"><rect x="18" y="34" width="268" height="36" rx="6"/></g>
+<text class="ts" x="152" y="52" text-anchor="middle" dominant-baseline="middle" font-size="12" font-weight="bold">Что нужно стабилизировать</text>
+<g class="c-gray"><rect x="324" y="34" width="338" height="36" rx="6"/></g>
+<text class="ts" x="493" y="52" text-anchor="middle" dominant-baseline="middle" font-size="12" font-weight="bold">Форма</text>
+<g class="c-neutral"><rect x="18" y="76" width="268" height="36" rx="6"/></g>
+<text class="ts" x="152" y="94" text-anchor="middle" dominant-baseline="middle" font-size="11">Повторяется постановка задачи</text>
+<g class="c-blue"><rect x="324" y="76" width="338" height="36" rx="6"/></g>
+<text class="ts" x="493" y="94" text-anchor="middle" dominant-baseline="middle" font-size="12" font-weight="bold">Prompt template</text>
+<line x1="288" y1="94" x2="320" y2="94" class="arr" marker-end="url(#arrow)"/>
+<g class="c-neutral"><rect x="18" y="118" width="268" height="36" rx="6"/></g>
+<text class="ts" x="152" y="136" text-anchor="middle" dominant-baseline="middle" font-size="11">Повторяется запуск сценария</text>
+<g class="c-teal"><rect x="324" y="118" width="338" height="36" rx="6"/></g>
+<text class="ts" x="493" y="136" text-anchor="middle" dominant-baseline="middle" font-size="12" font-weight="bold">Command</text>
+<line x1="288" y1="136" x2="320" y2="136" class="arr" marker-end="url(#arrow)"/>
+<g class="c-neutral"><rect x="18" y="160" width="268" height="36" rx="6"/></g>
+<text class="ts" x="152" y="178" text-anchor="middle" dominant-baseline="middle" font-size="11">Повторяется приёмка результата</text>
+<g class="c-amber"><rect x="324" y="160" width="338" height="36" rx="6"/></g>
+<text class="ts" x="493" y="178" text-anchor="middle" dominant-baseline="middle" font-size="12" font-weight="bold">Checklist</text>
+<line x1="288" y1="178" x2="320" y2="178" class="arr" marker-end="url(#arrow)"/>
+<g class="c-neutral"><rect x="18" y="202" width="268" height="36" rx="6"/></g>
+<text class="ts" x="152" y="220" text-anchor="middle" dominant-baseline="middle" font-size="11">Нужен фиксированный порядок шагов</text>
+<g class="c-purple"><rect x="324" y="202" width="338" height="36" rx="6"/></g>
+<text class="ts" x="493" y="220" text-anchor="middle" dominant-baseline="middle" font-size="12" font-weight="bold">Playbook</text>
+<line x1="288" y1="220" x2="320" y2="220" class="arr" marker-end="url(#arrow)"/>
+<g class="c-neutral"><rect x="18" y="244" width="268" height="36" rx="6"/></g>
+<text class="ts" x="152" y="262" text-anchor="middle" dominant-baseline="middle" font-size="11">Нужны условия, процедура, материалы</text>
+<g class="c-coral"><rect x="324" y="244" width="338" height="36" rx="6"/></g>
+<text class="ts" x="493" y="262" text-anchor="middle" dominant-baseline="middle" font-size="12" font-weight="bold">Skill</text>
+<line x1="288" y1="262" x2="320" y2="262" class="arr" marker-end="url(#arrow)"/>
+<text fill="#444441" font-family="Arial, sans-serif" font-size="10" x="340" y="292" text-anchor="middle">Если форма не покрывает сценарий — возвращайтесь к skill или разделите на несколько меньших элементов.</text>
+</svg>

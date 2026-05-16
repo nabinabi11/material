@@ -1,0 +1,58 @@
+<svg viewBox="0 0 680 452" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+.c-gray rect { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1; }
+.c-blue rect { fill: #dbeafe; stroke: #60a5fa; stroke-width: 1; }
+.c-amber rect { fill: #fef3c7; stroke: #d97706; stroke-width: 1; }
+.c-teal rect { fill: #ccfbf1; stroke: #14b8a6; stroke-width: 1; }
+.c-purple rect { fill: #ede9fe; stroke: #8b5cf6; stroke-width: 1; }
+.c-coral rect { fill: #ffe4e6; stroke: #f43f5e; stroke-width: 1; }
+.c-neutral rect { fill: #f9fafb; stroke: #e5e7eb; stroke-width: 1; }
+.ts { fill: #111827; font-family: Arial, sans-serif; }
+.sub { fill: #374151; font-family: Arial, sans-serif; }
+</style>
+</defs>
+<text x="340" y="22" text-anchor="middle" class="ts" font-size="15" font-weight="bold">Формы фиксации рабочего сценария</text>
+<g class="c-gray"><rect x="20" y="36" width="130" height="36" rx="6"/></g>
+<text x="85" y="54" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="13" font-weight="bold">Форма</text>
+<g class="c-gray"><rect x="156" y="36" width="232" height="36" rx="6"/></g>
+<text x="272" y="54" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="12" font-weight="bold">Когда подходит</text>
+<g class="c-gray"><rect x="394" y="36" width="266" height="36" rx="6"/></g>
+<text x="527" y="54" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="12" font-weight="bold">Что фиксирует</text>
+<g class="c-gray"><rect x="20" y="78" width="130" height="52" rx="6"/></g>
+<text x="85" y="104" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="12" font-weight="bold">Project rules</text>
+<g class="c-neutral"><rect x="156" y="78" width="232" height="52" rx="6"/></g>
+<text text-anchor="middle" class="sub" font-size="11"><tspan x="272" y="97">Правило действует почти</tspan><tspan x="272" dy="15">во всех задачах проекта</tspan></text>
+<g class="c-neutral"><rect x="394" y="78" width="266" height="52" rx="6"/></g>
+<text text-anchor="middle" class="sub" font-size="11"><tspan x="527" y="97">Постоянные ограничения: стиль, тесты,</tspan><tspan x="527" dy="15">безопасность, запрет на широкие правки</tspan></text>
+<g class="c-blue"><rect x="20" y="136" width="130" height="52" rx="6"/></g>
+<text text-anchor="middle" class="ts" font-size="12" font-weight="bold"><tspan x="85" y="155">Prompt</tspan><tspan x="85" dy="15">template</tspan></text>
+<g class="c-neutral"><rect x="156" y="136" width="232" height="52" rx="6"/></g>
+<text text-anchor="middle" class="sub" font-size="11"><tspan x="272" y="155">Нужно быстро поставить</tspan><tspan x="272" dy="15">похожую задачу</tspan></text>
+<g class="c-neutral"><rect x="394" y="136" width="266" height="52" rx="6"/></g>
+<text text-anchor="middle" class="sub" font-size="11"><tspan x="527" y="155">Структуру запроса: контекст,</tspan><tspan x="527" dy="15">границы, формат ответа</tspan></text>
+<g class="c-amber"><rect x="20" y="194" width="130" height="52" rx="6"/></g>
+<text x="85" y="220" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="12" font-weight="bold">Checklist</text>
+<g class="c-neutral"><rect x="156" y="194" width="232" height="52" rx="6"/></g>
+<text text-anchor="middle" class="sub" font-size="11"><tspan x="272" y="213">Главная боль —</tspan><tspan x="272" dy="15">приёмка результата</tspan></text>
+<g class="c-neutral"><rect x="394" y="194" width="266" height="52" rx="6"/></g>
+<text text-anchor="middle" class="sub" font-size="11"><tspan x="527" y="213">Критерии проверки diff, документа,</tspan><tspan x="527" dy="15">плана или тестов</tspan></text>
+<g class="c-teal"><rect x="20" y="252" width="130" height="52" rx="6"/></g>
+<text x="85" y="278" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="12" font-weight="bold">Command</text>
+<g class="c-neutral"><rect x="156" y="252" width="232" height="52" rx="6"/></g>
+<text text-anchor="middle" class="sub" font-size="11"><tspan x="272" y="271">Сценарий часто запускается</tspan><tspan x="272" dy="15">одной операцией</tspan></text>
+<g class="c-neutral"><rect x="394" y="252" width="266" height="52" rx="6"/></g>
+<text text-anchor="middle" class="sub" font-size="11"><tspan x="527" y="271">Короткий вход в стандартный</tspan><tspan x="527" dy="15">маршрут работы</tspan></text>
+<g class="c-purple"><rect x="20" y="310" width="130" height="68" rx="6"/></g>
+<text x="85" y="344" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="12" font-weight="bold">Skill</text>
+<g class="c-neutral"><rect x="156" y="310" width="232" height="68" rx="6"/></g>
+<text text-anchor="middle" class="sub" font-size="11"><tspan x="272" y="337">Нужна переносимая процедура</tspan><tspan x="272" dy="15">с материалами и границами</tspan></text>
+<g class="c-neutral"><rect x="394" y="310" width="266" height="68" rx="6"/></g>
+<text text-anchor="middle" class="sub" font-size="11"><tspan x="527" y="329">Назначение, триггеры, шаги,</tspan><tspan x="527" dy="15">вспомогательные файлы,</tspan><tspan x="527" dy="15">ожидаемый результат</tspan></text>
+<g class="c-coral"><rect x="20" y="384" width="130" height="52" rx="6"/></g>
+<text x="85" y="410" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="12" font-weight="bold">Automation</text>
+<g class="c-neutral"><rect x="156" y="384" width="232" height="52" rx="6"/></g>
+<text text-anchor="middle" class="sub" font-size="11"><tspan x="272" y="403">Часть маршрута можно</tspan><tspan x="272" dy="15">выполнять без рассуждений</tspan></text>
+<g class="c-neutral"><rect x="394" y="384" width="266" height="52" rx="6"/></g>
+<text text-anchor="middle" class="sub" font-size="11"><tspan x="527" y="403">Скрипт, проверку, генерацию</tspan><tspan x="527" dy="15">отчёта или технический preflight</tspan></text>
+</svg>

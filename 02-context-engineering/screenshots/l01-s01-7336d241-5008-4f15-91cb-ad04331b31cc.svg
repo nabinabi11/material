@@ -1,0 +1,90 @@
+<svg viewBox="0 0 680 242" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+<path d="M0,0 L0,6 L8,3 z" fill="#444441"/>
+</marker>
+
+<style>
+  .c-gray rect { fill: #f3f4f6; stroke: #d1d5db; }
+  .c-teal rect { fill: #ccfbf1; stroke: #14b8a6; }
+  .c-coral rect { fill: #ffe4e6; stroke: #f43f5e; }
+  .c-purple rect { fill: #ede9fe; stroke: #8b5cf6; }
+
+  .ts { fill: #111827; font-family: Arial, sans-serif; }
+  .arr { stroke: #444441; stroke-width: 1.2; }
+</style>
+</defs>
+
+<!-- Заголовки -->
+<text class="ts" font-size="12" x="75" y="20" text-anchor="middle">Уровень</text>
+<text class="ts" font-size="12" x="297" y="20" text-anchor="middle">Промпт агенту</text>
+<text class="ts" font-size="12" x="563" y="20" text-anchor="middle">Что решает агент</text>
+
+<!-- Минимальный -->
+<g class="c-gray">
+<rect x="10" y="32" width="130" height="44" rx="6"/>
+<text class="ts" x="75" y="54" text-anchor="middle" dominant-baseline="central" font-weight="500">Минимальный</text>
+</g>
+
+<line x1="145" y1="54" x2="168" y2="54" class="arr" marker-end="url(#arrow)"/>
+
+<g class="c-gray">
+<rect x="173" y="32" width="250" height="44" rx="6"/>
+<text class="ts" x="298" y="54" text-anchor="middle" dominant-baseline="central" font-weight="500">«добавь авторизацию в API»</text>
+</g>
+
+<line x1="428" y1="54" x2="451" y2="54" class="arr" marker-end="url(#arrow)"/>
+
+<g class="c-coral">
+<rect x="456" y="32" width="214" height="44" rx="6"/>
+<text class="ts" x="563" y="54" text-anchor="middle" dominant-baseline="central" font-weight="500">Почти всё</text>
+</g>
+
+<!-- Средний -->
+<g class="c-gray">
+<rect x="10" y="97" width="130" height="44" rx="6"/>
+<text class="ts" x="75" y="119" text-anchor="middle" dominant-baseline="central" font-weight="500">Средний</text>
+</g>
+
+<line x1="145" y1="119" x2="168" y2="119" class="arr" marker-end="url(#arrow)"/>
+
+<g class="c-teal">
+<rect x="173" y="97" width="250" height="44" rx="6"/>
+<text class="ts" x="298" y="112" text-anchor="middle" font-size="12" font-weight="500">«добавь JWT, используй</text>
+<text class="ts" x="298" y="128" text-anchor="middle" font-size="12" font-weight="500">User из models/user.py»</text>
+</g>
+
+<line x1="428" y1="119" x2="451" y2="119" class="arr" marker-end="url(#arrow)"/>
+
+<g class="c-teal">
+<rect x="456" y="97" width="214" height="44" rx="6"/>
+<text class="ts" x="563" y="119" text-anchor="middle" dominant-baseline="central" font-weight="500">Детали реализации</text>
+</g>
+
+<!-- Максимальный -->
+<g class="c-gray">
+<rect x="10" y="162" width="130" height="44" rx="6"/>
+<text class="ts" x="75" y="184" text-anchor="middle" dominant-baseline="central" font-weight="500">Максимальный</text>
+</g>
+
+<line x1="145" y1="184" x2="168" y2="184" class="arr" marker-end="url(#arrow)"/>
+
+<g class="c-purple">
+<rect x="173" y="162" width="250" height="44" rx="6"/>
+<text class="ts" x="298" y="177" text-anchor="middle" font-size="12" font-weight="500">«POST /api/orders, JWT 24h,</text>
+<text class="ts" x="298" y="193" text-anchor="middle" font-size="12" font-weight="500">401 при ошибке, не трогай…»</text>
+</g>
+
+<line x1="428" y1="184" x2="451" y2="184" class="arr" marker-end="url(#arrow)"/>
+
+<g class="c-purple">
+<rect x="456" y="162" width="214" height="44" rx="6"/>
+<text class="ts" x="563" y="184" text-anchor="middle" dominant-baseline="central" font-weight="500">Ничего существенного</text>
+</g>
+
+<!-- Подпись -->
+<text class="ts" font-size="12" x="500" y="230" text-anchor="middle">
+* чем меньше решает агент — тем предсказуемее результат
+</text>
+
+</svg>

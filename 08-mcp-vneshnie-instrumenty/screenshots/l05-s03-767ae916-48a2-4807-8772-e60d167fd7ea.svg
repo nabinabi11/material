@@ -1,0 +1,38 @@
+<svg viewBox="0 0 680 236" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="arrow" markerWidth="7" markerHeight="7" refX="5.6" refY="3" orient="auto-start-reverse">
+<path d="M0,0 L0,6 L7,3 z" fill="#444441"/>
+</marker>
+<style>
+.ts{fill:#111827;font-family:Arial,sans-serif}
+.sub{fill:#6b7280;font-family:Arial,sans-serif}
+.arr{fill:none;stroke:#444441;stroke-width:1.2;stroke-linecap:round}
+</style>
+</defs>
+<rect x="18" y="10" width="644" height="26" rx="6" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
+<text class="ts" x="340" y="23" text-anchor="middle" dominant-baseline="middle" font-size="12" font-weight="bold">Цикл поддержки MCP-слоя</text>
+<rect x="18" y="44" width="190" height="178" rx="6" fill="#dbeafe" stroke="#60a5fa" stroke-width="1"/>
+<text class="ts" x="113" y="66" text-anchor="middle" font-size="11" font-weight="bold">Обновление</text>
+<text class="sub" x="30" y="86" font-size="10">При смене задачи или проекта</text>
+<text class="sub" x="30" y="102" font-size="10">При выходе новой версии SDK</text>
+<text class="sub" x="30" y="118" font-size="10">При расширении scope сервера</text>
+<text class="sub" x="30" y="134" font-size="10">Обновить запись в mcp-servers.md</text>
+<text class="sub" x="30" y="150" font-size="10">Закрепить версию, если сломалась</text>
+<rect x="245" y="44" width="190" height="178" rx="6" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1"/>
+<text class="ts" x="340" y="66" text-anchor="middle" font-size="11" font-weight="bold">Ревизия раз в месяц</text>
+<text class="sub" x="257" y="86" font-size="10">Использовался за 2 недели?</text>
+<text class="sub" x="257" y="102" font-size="10">Scope токена актуален?</text>
+<text class="sub" x="257" y="118" font-size="10">Документация актуальна?</text>
+<text class="sub" x="257" y="134" font-size="10">Есть ссылки из workflows?</text>
+<text class="sub" x="257" y="150" font-size="10">«Нет» на 1-й вопрос →</text>
+<text class="sub" x="257" y="166" font-size="10">кандидат на отключение</text>
+<rect x="472" y="44" width="190" height="178" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+<text class="ts" x="567" y="66" text-anchor="middle" font-size="11" font-weight="bold">Удаление</text>
+<text class="sub" x="484" y="86" font-size="10">Убрать из .mcp.json</text>
+<text class="sub" x="484" y="102" font-size="10">Удалить из mcp-servers.md</text>
+<text class="sub" x="484" y="118" font-size="10">Убрать из reusable-workflows.md</text>
+<text class="sub" x="484" y="134" font-size="10">Убрать из autonomy-map.md</text>
+<text class="sub" x="484" y="150" font-size="10">Отозвать или сузить токен</text>
+<line x1="208" y1="133" x2="245" y2="133" class="arr" marker-end="url(#arrow)"/>
+<line x1="435" y1="133" x2="472" y2="133" class="arr" marker-end="url(#arrow)"/>
+</svg>

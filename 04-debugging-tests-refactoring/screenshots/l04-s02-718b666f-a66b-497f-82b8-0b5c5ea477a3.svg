@@ -1,0 +1,54 @@
+<svg viewBox="0 0 680 320" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+.c-teal rect  { fill: #ccfbf1; stroke: #14b8a6; }
+.c-coral rect { fill: #ffe4e6; stroke: #f43f5e; }
+.c-gray rect  { fill: #f3f4f6; stroke: #d1d5db; }
+.c-purple rect{ fill: #ede9fe; stroke: #8b5cf6; }
+.ts { fill: #111827; font-family: Arial, sans-serif; }
+</style>
+</defs>
+
+<text x="340" y="22" text-anchor="middle" font-size="13" font-family="Arial, sans-serif" fill="#111827" font-weight="bold">Сигнал теста vs реальное состояние</text>
+
+<text x="335" y="52" text-anchor="middle" font-size="11" fill="#6b7280" font-family="Arial, sans-serif">сигнал теста</text>
+<text x="185" y="68" text-anchor="middle" font-size="11" fill="#6b7280" font-family="Arial, sans-serif">🟢 зелёный</text>
+<text x="480" y="68" text-anchor="middle" font-size="11" fill="#6b7280" font-family="Arial, sans-serif">🔴 красный</text>
+
+
+<text x="25" y="170" text-anchor="middle" font-size="11" fill="#6b7280" font-family="Arial, sans-serif" transform="rotate(-90 30 178)">реальное состояние</text>
+<text x="50" y="130" text-anchor="middle" font-size="11" fill="#6b7280" font-family="Arial, sans-serif">ок ✅</text>
+<text x="50" y="245" text-anchor="middle" font-size="11" fill="#6b7280" font-family="Arial, sans-serif">баг 💥 </text>
+
+<g class="c-teal ts">
+  <rect x="70" y="78" width="240" height="95" rx="6"/>
+  <text x="190" y="103" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, sans-serif" fill="#111827">Всё хорошо</text>
+  <text x="190" y="121" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#374151">Код работает,</text>
+  <text x="190" y="137" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#374151">тест это подтверждает.</text>
+  <text x="190" y="157" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#14b8a6">Доверять можно.</text>
+</g>
+
+<g class="c-purple ts">
+  <rect x="360" y="78" width="240" height="95" rx="6"/>
+  <text x="480" y="103" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, sans-serif" fill="#111827">Ложноотрицательный</text>
+  <text x="480" y="121" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#374151">Код работает, но тест</text>
+  <text x="480" y="137" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#374151">красный. Хрупкая привязка</text>
+  <text x="480" y="157" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#8b5cf6">к деталям реализации.</text>
+</g>
+
+<g class="c-coral ts">
+  <rect x="70" y="193" width="240" height="95" rx="6"/>
+  <text x="190" y="218" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, sans-serif" fill="#111827">Ложноположительный</text>
+  <text x="190" y="236" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#374151">Код сломан, но тест</text>
+  <text x="190" y="252" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#374151">зелёный. Поломка скрыта</text>
+  <text x="190" y="272" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#f43f5e">за моком или слабым assert.</text>
+</g>
+
+<g class="c-teal ts">
+  <rect x="360" y="193" width="240" height="95" rx="6"/>
+  <text x="480" y="218" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial, sans-serif" fill="#111827">Тест поймал баг</text>
+  <text x="480" y="236" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#374151">Код сломан, тест</text>
+  <text x="480" y="252" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#374151">это показывает.</text>
+  <text x="480" y="272" text-anchor="middle" font-size="11" font-family="Arial, sans-serif" fill="#14b8a6">Барьер работает.</text>
+</g>
+</svg>

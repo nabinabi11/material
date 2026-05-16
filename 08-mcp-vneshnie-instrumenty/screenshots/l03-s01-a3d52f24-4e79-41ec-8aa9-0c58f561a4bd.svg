@@ -1,0 +1,45 @@
+<svg viewBox="0 0 680 298" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+.panel{fill:#f9fafb;stroke:#d1d5db;stroke-width:1}
+.hd-t{fill:#ccfbf1;stroke:#14b8a6;stroke-width:1}
+.hd-c{fill:#ffe4e6;stroke:#f43f5e;stroke-width:1}
+.it-t{fill:#f0fdf4;stroke:#bbf7d0;stroke-width:1}
+.it-c{fill:#fff1f2;stroke:#fecdd3;stroke-width:1}
+.ts{fill:#111827;font-family:Arial,sans-serif}
+.sub{fill:#6b7280;font-family:Arial,sans-serif}
+</style>
+</defs>
+<rect class="panel" x="18" y="12" width="644" height="30" rx="6"/>
+<text class="ts" x="340" y="27" text-anchor="middle" dominant-baseline="middle" font-size="13" font-weight="bold">Нужен ли собственный MCP-сервер?</text>
+<rect class="hd-t" x="18" y="50" width="312" height="26" rx="6"/>
+<text class="ts" x="174" y="63" text-anchor="middle" dominant-baseline="middle" font-size="12" font-weight="bold">Оправдан</text>
+<rect class="hd-c" x="350" y="50" width="312" height="26" rx="6"/>
+<text class="ts" x="506" y="63" text-anchor="middle" dominant-baseline="middle" font-size="12" font-weight="bold">Избыточен</text>
+<rect class="it-t" x="18" y="84" width="312" height="40" rx="6"/>
+<text class="ts" x="30" y="99" dominant-baseline="middle" font-size="11" font-weight="bold">Уникальный источник данных</text>
+<text class="sub" x="30" y="115" dominant-baseline="middle" font-size="10">корпоративный CRM, нестандартный API</text>
+<rect class="it-t" x="18" y="128" width="312" height="40" rx="6"/>
+<text class="ts" x="30" y="143" dominant-baseline="middle" font-size="11" font-weight="bold">Контроль над форматом данных</text>
+<text class="sub" x="30" y="159" dominant-baseline="middle" font-size="10">группировка, фильтрация, преобразование</text>
+<rect class="it-t" x="18" y="172" width="312" height="40" rx="6"/>
+<text class="ts" x="30" y="187" dominant-baseline="middle" font-size="11" font-weight="bold">Специфичный JSON-ответ агенту</text>
+<text class="sub" x="30" y="203" dominant-baseline="middle" font-size="10">гарантированная схема вместо сырого текста</text>
+<rect class="it-t" x="18" y="216" width="312" height="40" rx="6"/>
+<text class="ts" x="30" y="231" dominant-baseline="middle" font-size="11" font-weight="bold">Внутренний API без SDK</text>
+<text class="sub" x="30" y="247" dominant-baseline="middle" font-size="10">один tool быстрее любой другой интеграции</text>
+<rect class="it-c" x="350" y="84" width="312" height="40" rx="6"/>
+<text class="ts" x="362" y="99" dominant-baseline="middle" font-size="11" font-weight="bold">Готовый сервер уже покрывает задачу</text>
+<text class="sub" x="362" y="115" dominant-baseline="middle" font-size="10">Filesystem, GitHub, SQL дают нужный доступ</text>
+<rect class="it-c" x="350" y="128" width="312" height="40" rx="6"/>
+<text class="ts" x="362" y="143" dominant-baseline="middle" font-size="11" font-weight="bold">Задача решается skill или command</text>
+<text class="sub" x="362" y="159" dominant-baseline="middle" font-size="10">нужна процедура, а не постоянный инструмент</text>
+<rect class="it-c" x="350" y="172" width="312" height="40" rx="6"/>
+<text class="ts" x="362" y="187" dominant-baseline="middle" font-size="11" font-weight="bold">Данные нужны только один раз</text>
+<text class="sub" x="362" y="203" dominant-baseline="middle" font-size="10">проще передать в контекст вручную</text>
+<rect class="it-c" x="350" y="216" width="312" height="40" rx="6"/>
+<text class="ts" x="362" y="231" dominant-baseline="middle" font-size="11" font-weight="bold">«Просто интересно построить»</text>
+<text class="sub" x="362" y="247" dominant-baseline="middle" font-size="10">каждый сервер требует поддержки</text>
+<rect class="panel" x="18" y="264" width="644" height="24" rx="6"/>
+<text fill="#6b7280" font-family="Arial,sans-serif" font-size="10" x="340" y="276" text-anchor="middle" dominant-baseline="middle">Проверь: (1) есть ли готовый сервер? → (2) хватит ли Filesystem/SQL? → (3) нужен один tool или уже думаешь о платформе?</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg viewBox="0 0 680 338" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+.c-gray rect { fill: #f3f4f6; stroke: #d1d5db; stroke-width: 1; }
+.c-teal rect { fill: #ccfbf1; stroke: #14b8a6; stroke-width: 1; }
+.c-coral rect { fill: #ffe4e6; stroke: #f43f5e; stroke-width: 1; }
+.c-note rect { fill: #f0fdf4; stroke: #86efac; stroke-width: 1; }
+.ts { fill: #111827; font-family: Arial, sans-serif; }
+</style>
+</defs>
+<text x="340" y="24" text-anchor="middle" class="ts" font-size="15" font-weight="bold">Матрица делегирования</text>
+<g class="c-gray"><rect x="20" y="36" width="130" height="36" rx="6"/></g>
+<text x="85" y="54" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="13" font-weight="bold">Параметр</text>
+<g class="c-teal"><rect x="160" y="36" width="230" height="36" rx="6"/></g>
+<text x="275" y="54" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="12" font-weight="bold">Автономность можно повышать</text>
+<g class="c-coral"><rect x="400" y="36" width="260" height="36" rx="6"/></g>
+<text x="530" y="54" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="12" font-weight="bold">Требуются контрольные точки</text>
+<g class="c-gray"><rect x="20" y="78" width="130" height="48" rx="6"/></g>
+<text x="85" y="102" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="13">Риск</text>
+<g class="c-teal"><rect x="160" y="78" width="230" height="48" rx="6"/></g>
+<text x="275" y="102" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="12">локальный, слабосвязанный</text>
+<g class="c-coral"><rect x="400" y="78" width="260" height="48" rx="6"/></g>
+<text x="530" y="102" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="12">контракт, данные, доступы</text>
+<g class="c-gray"><rect x="20" y="132" width="130" height="48" rx="6"/></g>
+<text x="85" y="156" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="13">Обратимость</text>
+<g class="c-teal"><rect x="160" y="132" width="230" height="48" rx="6"/></g>
+<text x="275" y="156" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="12">легко откатить или изолировать</text>
+<g class="c-coral"><rect x="400" y="132" width="260" height="48" rx="6"/></g>
+<text x="530" y="156" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="12">последствия трудно отменить</text>
+<g class="c-gray"><rect x="20" y="186" width="130" height="48" rx="6"/></g>
+<text x="85" y="210" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="13">Цена ошибки</text>
+<g class="c-teal"><rect x="160" y="186" width="230" height="48" rx="6"/></g>
+<text x="275" y="210" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="12">умеренная</text>
+<g class="c-coral"><rect x="400" y="186" width="260" height="48" rx="6"/></g>
+<text x="530" y="200" text-anchor="middle" class="ts" font-size="12">дни на исправление,</text>
+<text x="530" y="216" text-anchor="middle" class="ts" font-size="12">потеря данных или доверия</text>
+<g class="c-gray"><rect x="20" y="240" width="130" height="48" rx="6"/></g>
+<text x="85" y="264" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="13">Проверяемость</text>
+<g class="c-teal"><rect x="160" y="240" width="230" height="48" rx="6"/></g>
+<text x="275" y="264" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="12">чистый diff, явный сигнал</text>
+<g class="c-coral"><rect x="400" y="240" width="260" height="48" rx="6"/></g>
+<text x="530" y="264" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="12">нет ясного критерия приёмки</text>
+<g class="c-note"><rect x="20" y="296" width="640" height="34" rx="6"/></g>
+<text x="340" y="313" text-anchor="middle" dominant-baseline="middle" class="ts" font-size="12">Два и более параметра с плохим сигналом → дробить на контрольные точки или вести вручную</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg viewBox="0 0 680 234" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+.ts{fill:#111827;font-family:Arial,sans-serif}
+.sub{fill:#6b7280;font-family:Arial,sans-serif}
+</style>
+</defs>
+<rect x="18" y="10" width="644" height="26" rx="6" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
+<text class="ts" x="340" y="23" text-anchor="middle" dominant-baseline="middle" font-size="12" font-weight="bold">MCP как усилитель skills и commands</text>
+<rect x="18" y="44" width="308" height="26" rx="6" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1"/>
+<text class="ts" x="172" y="57" text-anchor="middle" dominant-baseline="middle" font-size="11" font-weight="bold">До MCP</text>
+<rect x="354" y="44" width="308" height="26" rx="6" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1"/>
+<text class="ts" x="508" y="57" text-anchor="middle" dominant-baseline="middle" font-size="11" font-weight="bold">После MCP</text>
+<rect x="18" y="78" width="308" height="36" rx="6" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1"/>
+<text class="ts" x="30" y="92" dominant-baseline="middle" font-size="10" font-weight="bold">skill release-notes</text>
+<text class="sub" x="30" y="107" dominant-baseline="middle" font-size="10">просит вставить список PR вручную</text>
+<rect x="354" y="78" width="308" height="36" rx="6" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+<text class="ts" x="366" y="92" dominant-baseline="middle" font-size="10" font-weight="bold">skill release-notes</text>
+<text class="sub" x="366" y="107" dominant-baseline="middle" font-size="10">читает merged PR через GitHub-сервер автоматически</text>
+<rect x="18" y="122" width="308" height="36" rx="6" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1"/>
+<text class="ts" x="30" y="136" dominant-baseline="middle" font-size="10" font-weight="bold">command /morning-standup</text>
+<text class="sub" x="30" y="151" dominant-baseline="middle" font-size="10">спрашивает: «что сделал вчера?»</text>
+<rect x="354" y="122" width="308" height="36" rx="6" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+<text class="ts" x="366" y="136" dominant-baseline="middle" font-size="10" font-weight="bold">command /morning-standup</text>
+<text class="sub" x="366" y="151" dominant-baseline="middle" font-size="10">получает коммиты и встречи через MCP напрямую</text>
+<rect x="18" y="166" width="308" height="36" rx="6" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1"/>
+<text class="ts" x="30" y="180" dominant-baseline="middle" font-size="10" font-weight="bold">checklist дедлайнов</text>
+<text class="sub" x="30" y="195" dominant-baseline="middle" font-size="10">проверяется вручную</text>
+<rect x="354" y="166" width="308" height="36" rx="6" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+<text class="ts" x="366" y="180" dominant-baseline="middle" font-size="10" font-weight="bold">checklist дедлайнов</text>
+<text class="sub" x="366" y="195" dominant-baseline="middle" font-size="10">resource отдаёт расписание, агент сравнивает</text>
+<rect x="18" y="210" width="644" height="22" rx="6" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
+<text fill="#6b7280" font-family="Arial,sans-serif" font-size="10" x="340" y="221" text-anchor="middle" dominant-baseline="middle">Skill описывает процедуру. MCP — опциональный усилитель шага, а не замена всей процедуры.</text>
+</svg>

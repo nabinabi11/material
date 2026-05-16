@@ -1,0 +1,104 @@
+<svg viewBox="0 0 680 375" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+<path d="M0,0 L0,6 L8,3 z" fill="#444441"/>
+</marker>
+
+<style>
+  .c-gray rect { fill: #f3f4f6; stroke: #d1d5db; }
+  .c-teal rect { fill: #ccfbf1; stroke: #14b8a6; }
+  .c-purple rect { fill: #ede9fe; stroke: #8b5cf6; }
+
+  .ts { fill: #111827; font-family: Arial, sans-serif; }
+  .label { fill: #444441; font-family: Arial, sans-serif; }
+</style>
+</defs>
+
+<!-- Заголовок -->
+<text class="label" font-size="12" x="15" y="20" text-anchor="start">
+AGENTS.md/CLAUDE.md — задаётся один раз для всего проекта
+</text>
+
+<!-- Рамка -->
+<rect x="10" y="28" width="460" height="130" rx="8"
+      fill="none" stroke="#9ca3af" stroke-width="1" stroke-dasharray="6,4"/>
+
+<!-- Блоки внутри -->
+<g class="c-teal">
+<rect x="25" y="43" width="430" height="44" rx="6"/>
+<text class="ts" x="240" y="65" text-anchor="middle" dominant-baseline="central" font-weight="500">
+Роль
+</text>
+</g>
+
+<g class="c-gray">
+<rect x="25" y="103" width="430" height="44" rx="6"/>
+<text class="ts" x="240" y="125" text-anchor="middle" dominant-baseline="central" font-weight="500">
+Ограничения
+</text>
+</g>
+
+<!-- Подзаголовок -->
+<text class="label" font-size="12" x="15" y="183" text-anchor="start">
+Каждый запрос
+</text>
+
+<!-- Нижние блоки -->
+<g class="c-purple">
+<rect x="10" y="193" width="460" height="44" rx="6"/>
+<text class="ts" x="240" y="215" text-anchor="middle" dominant-baseline="central" font-weight="500">
+Задача
+</text>
+</g>
+
+<g class="c-gray">
+<rect x="10" y="253" width="460" height="44" rx="6"/>
+<text class="ts" x="240" y="275" text-anchor="middle" dominant-baseline="central" font-weight="500">
+Edge-cases
+</text>
+</g>
+
+<g class="c-teal">
+<rect x="10" y="313" width="460" height="44" rx="6"/>
+<text class="ts" x="240" y="335" text-anchor="middle" dominant-baseline="central" font-weight="500">
+Формат
+</text>
+</g>
+
+<!-- Описания справа -->
+<text class="label" font-size="12" x="490" y="62" text-anchor="start">
+Стиль кода, технологии,
+</text>
+<text class="label" font-size="12" x="490" y="78" text-anchor="start">
+принципы работы агента
+</text>
+
+<text class="label" font-size="12" x="490" y="122" text-anchor="start">
+Что нельзя делать
+</text>
+<text class="label" font-size="12" x="490" y="138" text-anchor="start">
+ни в какой задаче
+</text>
+
+<text class="label" font-size="12" x="490" y="212" text-anchor="start">
+Что сделать, где и когда
+</text>
+<text class="label" font-size="12" x="490" y="228" text-anchor="start">
+считать результат готовым
+</text>
+
+<text class="label" font-size="12" x="490" y="272" text-anchor="start">
+Граничные сценарии
+</text>
+<text class="label" font-size="12" x="490" y="288" text-anchor="start">
+и обработка исключений
+</text>
+
+<text class="label" font-size="12" x="490" y="332" text-anchor="start">
+Как оформить
+</text>
+<text class="label" font-size="12" x="490" y="348" text-anchor="start">
+результат работы
+</text>
+
+</svg>

@@ -1,0 +1,38 @@
+<svg viewBox="0 0 680 306" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+.ts{fill:#111827;font-family:Arial,sans-serif}
+.sub{fill:#6b7280;font-family:Arial,sans-serif}
+</style>
+</defs>
+<rect x="18" y="10" width="644" height="26" rx="6" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
+<text class="ts" x="340" y="23" text-anchor="middle" dominant-baseline="middle" font-size="12" font-weight="bold">Матрица риска MCP-инструментов</text>
+<rect x="108" y="44" width="277" height="28" rx="6" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1"/>
+<text class="ts" x="246" y="58" text-anchor="middle" dominant-baseline="middle" font-size="11" font-weight="bold">Локальное состояние</text>
+<rect x="393" y="44" width="269" height="28" rx="6" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1"/>
+<text class="ts" x="527" y="58" text-anchor="middle" dominant-baseline="middle" font-size="11" font-weight="bold">Внешнее состояние</text>
+<rect x="18" y="80" width="82" height="90" rx="6" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1"/>
+<text class="ts" x="59" y="119" text-anchor="middle" font-size="10" font-weight="bold">Только</text>
+<text class="ts" x="59" y="133" text-anchor="middle" font-size="10" font-weight="bold">чтение</text>
+<rect x="108" y="80" width="277" height="90" rx="6" fill="#f0fdf4" stroke="#14b8a6" stroke-width="1"/>
+<text fill="#047857" font-family="Arial,sans-serif" x="246" y="100" text-anchor="middle" font-size="11" font-weight="bold">НИЗКИЙ</text>
+<text class="sub" x="246" y="118" text-anchor="middle" font-size="10">Filesystem (чтение), Git log</text>
+<text class="sub" x="246" y="134" text-anchor="middle" font-size="10">SQL SELECT (локальная БД)</text>
+<rect x="393" y="80" width="269" height="90" rx="6" fill="#fef9c3" stroke="#ca8a04" stroke-width="1"/>
+<text fill="#92400e" font-family="Arial,sans-serif" x="527" y="100" text-anchor="middle" font-size="11" font-weight="bold">НИЗКИЙ – СРЕДНИЙ</text>
+<text class="sub" x="527" y="118" text-anchor="middle" font-size="10">PostgreSQL read-only (внешний)</text>
+<text class="sub" x="527" y="134" text-anchor="middle" font-size="10">Web Search API</text>
+<rect x="18" y="178" width="82" height="90" rx="6" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1"/>
+<text class="ts" x="59" y="217" text-anchor="middle" font-size="10" font-weight="bold">Запись</text>
+<text class="ts" x="59" y="231" text-anchor="middle" font-size="10" font-weight="bold">+ эффекты</text>
+<rect x="108" y="178" width="277" height="90" rx="6" fill="#fff7ed" stroke="#d97706" stroke-width="1"/>
+<text fill="#92400e" font-family="Arial,sans-serif" x="246" y="198" text-anchor="middle" font-size="11" font-weight="bold">СРЕДНИЙ</text>
+<text class="sub" x="246" y="216" text-anchor="middle" font-size="10">Filesystem (чтение + запись)</text>
+<text class="sub" x="246" y="232" text-anchor="middle" font-size="10">SQLite write (локальная БД)</text>
+<rect x="393" y="178" width="269" height="90" rx="6" fill="#fff1f2" stroke="#f43f5e" stroke-width="1"/>
+<text fill="#be123c" font-family="Arial,sans-serif" x="527" y="198" text-anchor="middle" font-size="11" font-weight="bold">ВЫСОКИЙ</text>
+<text class="sub" x="527" y="216" text-anchor="middle" font-size="10">Slack, GitHub create_issue</text>
+<text class="sub" x="527" y="232" text-anchor="middle" font-size="10">SQL INSERT / UPDATE / DELETE</text>
+<rect x="18" y="276" width="644" height="22" rx="6" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
+<text fill="#6b7280" font-family="Arial,sans-serif" font-size="10" x="340" y="287" text-anchor="middle" dominant-baseline="middle">Риск = тип операции × область видимости. Высокий риск → stop-point в autonomy-map.</text>
+</svg>
